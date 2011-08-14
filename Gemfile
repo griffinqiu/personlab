@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-gem 'rake', '0.8.7'
+gem "rake", "~> 0.9.2"
 gem 'rails'
 gem 'mysql2', '0.2.7'
 gem 'RedCloth'

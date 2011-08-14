@@ -3,4 +3,4 @@ production:
 development:
   - localhost:11211
 benchmarking:
-  - ocalhost:11211
+  - localhost:11211
