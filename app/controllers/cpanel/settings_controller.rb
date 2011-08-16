@@ -6,7 +6,7 @@ class Cpanel::SettingsController < Cpanel::ApplicationController
   # GET /settings.xml
   def index
     @setting = Setting.find_create
-
+    Rails.logger.info("Setting: #{params.to_yaml}");
     if request.put?
       if @setting.update_attributes(params[:setting])
         save_notice("设置修改成功.")
