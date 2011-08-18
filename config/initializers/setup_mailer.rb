@@ -4,7 +4,7 @@ ActionMailer::Base.smtp_settings = {
   :port => 587,
   :domain => "huacnlee.com",
   :authentication => :plain,
-  :user_name => "support@huacnlee.com",
+  :user_name => "support@qiuyun.me",
   :password => "SU_123123"
 }
 # action mailer config
