@@ -2,9 +2,9 @@ ActionMailer::Base.smtp_settings = {
   :address => "smtp.gmail.com",
   :enable_starttls_auto => true,
   :port => 587,
-  :domain => "huacnlee.com",
+  :domain => "qiuyun.me",
   :authentication => :plain,
-  :user_name => "support@qiuyun.me",
+  :user_name => "qiuyun@me.com",
   :password => "SU_123123"
 }
 # action mailer config
