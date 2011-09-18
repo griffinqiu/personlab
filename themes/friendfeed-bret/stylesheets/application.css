@@ -125,16 +125,16 @@ a:hover {
 
 #sidebar .headline {
   padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 #sidebar .icons {
-  padding-top: 9px;
-  padding-right: 9px;
+  width: 180px;
   line-height: 0;
 }
 
-#sidebar .icons td.last {
-  padding-right: 0;
+#sidebar .icons img {
+  padding:0 5px 5px 0;
 }
 
 #content { margin-right: 250px; }
